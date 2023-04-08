@@ -25,17 +25,18 @@ const Ball = (props) => {
           polygonOffsetFactor={-5}
           flatShading
         />
-        <Decal 
-        position={[0, 0, 1]}
-        rotation={[2*Math.PI,0,6.25]}
-        flatShading
-        map={decal} />
+        <Decal
+          position={[0, 0, 1]}
+          rotation={[2 * Math.PI, 0, 6.25]}
+          flatShading
+          map={decal}
+        />
       </mesh>
     </Float>
   );
 };
 
-const BallCanvas = ({icon}) => {
+const BallCanvas = ({ icon }) => {
   return (
     <Canvas frameloop="demand" gl={{ preserveDrawingBuffer: true }}>
       <Suspense fallback={<CanvasLoader />}>
