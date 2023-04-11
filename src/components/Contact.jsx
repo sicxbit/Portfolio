@@ -63,7 +63,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
-              rows='7'
+              rows="7"
               name="Message"
               value={form.message}
               onChange={handleChange}
@@ -74,15 +74,22 @@ const Contact = () => {
             />
           </label>
           <button
-          type="submit"
-           className="bg-tertiary py-3 px-8 w-fit text-white
-           font-bold shadow-md shadow-primary outline-none rounded-xl">
-            {loading? "sending...":"send"}
+            type="submit"
+            className="bg-tertiary py-3 px-8 w-fit text-white
+           font-bold shadow-md shadow-primary outline-none rounded-xl"
+          >
+            {loading ? "sending..." : "send"}
           </button>
         </form>
+      </motion.div>
+      <motion.div
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
+      >
+        <EarthCanvas />
       </motion.div>
     </div>
   );
 };
 
-export default SectionWrapper(Contact,"")
+export default SectionWrapper(Contact, "");
