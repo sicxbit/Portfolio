@@ -118,7 +118,7 @@ const experiences = [
   {
     title: "Developer",
     company_name: "MangoCart MVC",
-    icon: starbucks,
+    icon: creator,
     iconBg: "#383E56",
     date: "October 2022",
     points: [
@@ -130,24 +130,35 @@ const experiences = [
   {
     title: "Developer",
     company_name: "Movification",
-    icon: tesla,
+    icon: creator,
     iconBg: "#E6DEDD",
     date: "Sep 2022",
     points: [
       "Developing and maintaining web applications using express.js and other related technologies.",
       "Implemented features with MVC archetecture",
-      "Implementing responsive design and ensuring cross-browser compatibility."
+      "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
   },
   {
     title: "React Native Devoloper",
     company_name: "Emojizer",
-    icon: shopify,
+    icon: creator,
     iconBg: "#383E56",
     date: "Mar 2023",
     points: [
       "Developing and maintaining web applications using React Native and other related technologies.",
       // "Couldn't upload on Playstore because of Financial issues "
+    ],
+  },
+  {
+    title: "React Developer",
+    company_name: "ArtiGenious",
+    icon: creator,
+    iconBg: "#E6DEDD",
+    date: "Apr 2023",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
   },
 ];
@@ -181,12 +192,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "ArtiGenius",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various provid",
+      "An AI image generation tool with it's own community.Built with React & MongoDB using express.js as backend and openAI API",
     tags: [
       {
-        name: "react",
+        name: "openaiapi",
         color: "blue-text-gradient",
       },
       {
@@ -194,28 +205,28 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: tripguide,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Emojizer",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An application which can edit pictures with the emojies from different platforms and OS'es",
     tags: [
       {
-        name: "react",
+        name: "react-native",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "cross-platform",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "android",
         color: "pink-text-gradient",
       },
     ],
@@ -223,24 +234,24 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Moviefication",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A mock webapp which allows us to book shows on different screenings, Built in MVC archetecture",
     tags: [
       {
-        name: "nextjs",
+        name: "mvc",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "express.js",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: carrent,
     source_code_link: "https://github.com/",
   },
 ];
