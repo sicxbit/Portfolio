@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { github } from "../assets";
+import { gitlab } from "../assets";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
@@ -21,7 +21,7 @@ const ProjectCard = ({
         options={{ max: 45, scale: 1, speed: 450 }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
+        <div className="relative w-full h-[230px] ">
           <img
             src={image}
             alt={name}
@@ -34,13 +34,14 @@ const ProjectCard = ({
           >
             <div
               onClick={() => window.open(source_code_link, "blank")}
-              className="black-gradient w-10 h-10 rounded-full
+              className="bg-[#fddb1a] w-10 h-10 rounded-full
               flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
+                src={gitlab}
                 alt="github"
-                className="w-1/2 h-1/2 object-contain"
+                className="w-100 h-100 
+                object-contain"
               />
             </div>
           </div>
