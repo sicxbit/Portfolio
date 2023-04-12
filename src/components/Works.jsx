@@ -73,7 +73,7 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] 
         max-w-3xl leading-[30px]"
         >
-          Add description
+          The works i've done so far
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
