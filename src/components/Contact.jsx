@@ -15,8 +15,43 @@ const Contact = () => {
     message: "",
   });
   const [loading, setloading] = useState(false);
-  const handleChange = (e) => {};
-  const handleSubmit = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setloading(true);
+
+    emailjs
+      .send(
+        'service_pc9lbkp',
+        'template_byupant',
+        {
+          from_name: form.name,
+          to_name: 'Arunjith T Nair',
+          from_email: form.email,
+          to_email: 'tnairarunjith@gmail.com',
+          message: form.message,
+        },
+        'TFL43O7WV9EZOYCYn'
+      )
+      .then(() => {
+        setloading(false);
+        alert("Thank you. I'll get back to you as soon as possible");
+
+        setForm({
+          name: "",
+          email: "",
+          message: "",
+        });
+      },(error)=>{
+        setloading(false)
+
+        console.log(error);
+        alert("Something went wrong")
+      });
+  };
   return (
     <div
       className="xl:mt-14 xl:flex-row flex-col-reverse 
@@ -64,7 +99,8 @@ const Contact = () => {
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
               rows="7"
-              name="Message"
+              type="text"
+              name="message"
               value={form.message}
               onChange={handleChange}
               placeholder="What's do you want to say?"
