@@ -54,6 +54,7 @@ const Contact = () => {
   };
   return (
     <div
+      id="contact"
       className="xl:mt-14 xl:flex-row flex-col-reverse 
       flex gap-10 overflow-hidden"
     >
