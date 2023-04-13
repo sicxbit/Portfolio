@@ -194,7 +194,7 @@ const projects = [
   {
     name: "ArtiGenius",
     description:
-      "An AI image generation tool with it's own community.Built with React & MongoDB using express.js as backend and openAI API",
+      "An AI image generation tool with it's own community.Built with MERN stack and openAI API",
     tags: [
       {
         name: "openaiapi",
@@ -210,7 +210,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://gitlab.com/arunjith.official/ai-image-generator-mern",
   },
   {
     name: "Emojizer",
@@ -231,7 +231,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://gitlab.com/arunjith.official/appreactnative",
   },
   {
     name: "Moviefication",
@@ -252,7 +252,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://gitlab.com/arunjith.official/movieticketbookingusingmongodbandmvc",
   },
 ];
 
