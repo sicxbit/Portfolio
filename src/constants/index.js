@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  emojizer,
 } from "../assets";
 
 export const navLinks = [
@@ -230,7 +231,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: emojizer,
     source_code_link: "https://gitlab.com/arunjith.official/appreactnative",
   },
   {
