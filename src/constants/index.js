@@ -24,6 +24,7 @@ import {
   tripguide,
   threejs,
   emojizer,
+  artigenius,
 } from "../assets";
 
 export const navLinks = [
@@ -210,7 +211,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: artigenius,
     source_code_link: "https://gitlab.com/arunjith.official/ai-image-generator-mern",
   },
   {
