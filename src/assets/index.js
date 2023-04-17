@@ -32,7 +32,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import emojizer from "./emojizer.png"
-import artigenius from "artigenius.png"
+import artigenius from "./artigenius.png"
 export {
   artigenius,
   emojizer,
