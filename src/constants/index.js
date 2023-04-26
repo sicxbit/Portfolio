@@ -194,6 +194,29 @@ const testimonials = [
 
 const projects = [
   {
+    name: "SumZ",
+    description:
+      "An article summarizer which uses openAI API as backend",
+    tags: [
+      {
+        name: "openaiapi",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "green-text-gradient",
+      },
+      {
+        name: "vite-react",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: artigenius,
+    source_code_link: "https://gitlab.com/arunjith.official/summerizer/",
+    deployment_link: "",
+    download_link:"",
+  },
+  {
     name: "ArtiGenius",
     description:
       "An AI image generation tool with it's own community.Built with MERN stack and openAI API",
@@ -213,7 +236,7 @@ const projects = [
     ],
     image: artigenius,
     source_code_link: "https://gitlab.com/arunjith.official/ai-image-generator-mern",
-    deployment_link: "",
+    deployment_link: "https://artigenius.vercel.app/",
     download_link:"",
   },
   {
