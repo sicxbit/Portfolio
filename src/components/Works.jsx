@@ -14,6 +14,8 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  deployment_link,
+  download_link,
 }) => {
   return (
     <motion.div id="work" variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -47,14 +49,31 @@ const ProjectCard = ({
           </div>
         </div>
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">
-            {name}</h3>
+          <h3 className="text-white font-bold text-[24px]">{name}</h3>
           <p className="text-secondary mt-2 text-[14px] ">{description}</p>
         </div>
         <div className="mt-2 flex flex-wrap gap-2">
-          {tags.map((tag)=>(
-            <p key={tag.name} className={`text-[14px] ${tag.color}`} >#{tag.name}</p>
+          {tags.map((tag) => (
+            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+              #{tag.name}
+            </p>
           ))}
+        </div>
+        <div className=" flex justify-center mt-3">
+          {deployment_link !== "" && (
+        <button 
+        className="visit"
+        onClick={window.open(deployment_link)}
+        >
+          Visit
+        </button>)}
+        {download_link !=="" && (<button 
+        className="visit"
+        onClick={window.open(download_link)}
+        >
+          Download
+        </button>)}
+
         </div>
       </Tilt>
     </motion.div>

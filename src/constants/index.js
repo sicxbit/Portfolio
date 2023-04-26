@@ -213,6 +213,8 @@ const projects = [
     ],
     image: artigenius,
     source_code_link: "https://gitlab.com/arunjith.official/ai-image-generator-mern",
+    deployment_link: "",
+    download_link:"",
   },
   {
     name: "Emojizer",
@@ -234,6 +236,8 @@ const projects = [
     ],
     image: emojizer,
     source_code_link: "https://gitlab.com/arunjith.official/appreactnative",
+    deployment_link: "",
+    download_link:"www.google.com",
   },
   {
     name: "Moviefication",
@@ -255,6 +259,8 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://gitlab.com/arunjith.official/movieticketbookingusingmongodbandmvc",
+    deployment_link: "",
+    download_link:"",
   },
 ];
 
