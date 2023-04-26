@@ -25,6 +25,7 @@ import {
   threejs,
   emojizer,
   artigenius,
+  summarizer
 } from "../assets";
 
 export const navLinks = [
@@ -194,9 +195,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "SumZ",
+    name: "Digestify",
     description:
-      "An article summarizer which uses openAI API as backend",
+      "An article summarizer which uses openAI API as backend. Built with Redux and Rapid API as API client",
     tags: [
       {
         name: "openaiapi",
@@ -211,9 +212,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: artigenius,
+    image: summarizer,
     source_code_link: "https://gitlab.com/arunjith.official/summerizer/",
-    deployment_link: "",
+    deployment_link: "https://summarizer-amber.vercel.app/",
     download_link:"",
   },
   {

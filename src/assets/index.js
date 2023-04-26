@@ -33,7 +33,9 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import emojizer from "./emojizer.png"
 import artigenius from "./artigenius.png"
+import summarizer from "./summarizer.png"
 export {
+  summarizer,
   artigenius,
   emojizer,
   logo,
