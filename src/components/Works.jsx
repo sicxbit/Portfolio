@@ -63,13 +63,13 @@ const ProjectCard = ({
           {deployment_link !== "" && (
         <button 
         className="visit"
-        onClick={window.open(deployment_link, "blank")}
+        onClick={() => window.open(deployment_link, "blank")}
         >
           Visit
         </button>)}
         {download_link !=="" && (<button 
         className="visit"
-        onClick={window.open(download_link, "blank")}
+        onClick={() => window.open(download_link, "blank")}
         >
           Download
         </button>)}
