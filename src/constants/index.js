@@ -25,7 +25,9 @@ import {
   threejs,
   emojizer,
   artigenius,
-  summarizer
+  summarizer,
+  kaggle,
+  aeon
 } from "../assets";
 
 export const navLinks = [
@@ -119,6 +121,18 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Data Analyst",
+    company_name: "Divvy bikeshare",
+    icon: creator,
+    iconBg: "#E6DEDD",
+    date: "July 2024 ",
+    points: [
+      "Utilized advanced data cleaning techniques and analytical methods to process publicly available Divvy Bikeshare data, ensuring accuracy and reliability for informed decision-making.",
+      "Created compelling visualizations that highlighted key trends and patterns, effectively demonstrating to stakeholders that promoting subscriptions is a more advantageous choice for the bikeshare program's growth and sustainability.",
+      "Documented the entire process meticulously in a Kaggle notebook, providing a transparent and reproducible workflow that showcases the project's depth and thoroughness."
+    ],
+  },
+  {
     title: "Developer",
     company_name: "Aeon ecommerce",
     icon: creator,
@@ -155,6 +169,52 @@ const experiences = [
 
 const testimonials = []
 const projects = [
+  {
+    name: "Data Analysis for Divvy the bikeshare",
+    description:
+      "Conducted a comprehensive analysis of Divvy Bikeshare data to uncover usage patterns, identify trends, and optimize subscription strategies.",
+    tags: [
+      {
+        name: "react-native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "cross-platform",
+        color: "green-text-gradient",
+      },
+      {
+        name: "android",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: kaggle,
+    source_code_link: "https://www.kaggle.com/code/arunjithts/case-study",
+    deployment_link: "https://www.kaggle.com/code/arunjithts/case-study",
+    download_link:"",
+  },
+  {
+    name: "Aeon Ecommerce",
+    description:
+      "Developed a comprehensive e-commerce platform from the ground up. React.js frontend with a robust backend for seamless shopping experiences and it comes with payment gateway integration.",
+    tags: [
+      {
+        name: "mvc",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: creator,
+    source_code_link: "https://gitlab.com/arunjith.official/movieticketbookingusingmongodbandmvc",
+    deployment_link: "",
+    download_link:"",
+  },
   {
     name: "Digestify",
     description:
@@ -201,52 +261,8 @@ const projects = [
     deployment_link: "https://artigenius.vercel.app/",
     download_link:"",
   },
-  {
-    name: "Emojizer",
-    description:
-      "An application which can edit pictures with the emojies from different platforms and OS'es",
-    tags: [
-      {
-        name: "react-native",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "cross-platform",
-        color: "green-text-gradient",
-      },
-      {
-        name: "android",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: emojizer,
-    source_code_link: "https://gitlab.com/arunjith.official/appreactnative",
-    deployment_link: "",
-    download_link:"www.google.com",
-  },
-  {
-    name: "Moviefication",
-    description:
-      "A mock webapp which allows us to book shows on different screenings, Built in MVC archetecture",
-    tags: [
-      {
-        name: "mvc",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "express.js",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://gitlab.com/arunjith.official/movieticketbookingusingmongodbandmvc",
-    deployment_link: "",
-    download_link:"",
-  },
+  
+  
 ];
 
 export { services, technologies, experiences, testimonials, projects };

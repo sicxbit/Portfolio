@@ -34,7 +34,11 @@ import tripguide from "./tripguide.png";
 import emojizer from "./emojizer.png"
 import artigenius from "./artigenius.png"
 import summarizer from "./summarizer.png"
+import kaggle from "./kaggle.png"
+import aeon from "./aeon_screenshot.jpg"
 export {
+  aeon,
+  kaggle,
   summarizer,
   artigenius,
   emojizer,

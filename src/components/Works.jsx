@@ -27,7 +27,7 @@ const ProjectCard = ({
           <img
             src={image}
             alt={name}
-            className="w-full h-full 
+            className="w-400 h-300 
             object-cover rounded-2xl"
           />
           <div
@@ -93,7 +93,7 @@ const Works = () => {
           className="mt-3 text-secondary text-[17px] 
         max-w-3xl leading-[30px]"
         >
-          The works i've done so far
+          that i've done so far
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
