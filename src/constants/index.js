@@ -49,16 +49,16 @@ const services = [
     icon: web,
   },
   {
+    title: "Data Analyst",
+    icon: creator,
+  },
+  {
     title: "React Native Developer",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Author",
-    icon: creator,
   },
 ];
 
@@ -120,37 +120,24 @@ const technologies = [
 const experiences = [
   {
     title: "Developer",
-    company_name: "MangoCart MVC",
+    company_name: "Aeon ecommerce",
     icon: creator,
-    iconBg: "#383E56",
-    date: "October 2022",
+    iconBg: "#E6DEDD",
+    date: "November 2023 ",
     points: [
-      "Developing and maintaining web applications using JavaScript and other related technologies.",
-      "Implemented MVC Architecture",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Conceptualized, designed, and developed a highly modular and configurable e-commerce website and an intuitive admin dashboard for efficient management.",
+      "Ensured code maintainability and reusability by implementing a flexible architecture that allows users to easily customize the platform to meet their specific needs.",
+      "Developed with React.js and Next.js, utilizing a component-based architecture for easy modification and extension and utilized Styled Components for styling, allowing for seamless theming and styling adjustments.",
     ],
   },
   {
     title: "Developer",
-    company_name: "Movification",
-    icon: creator,
-    iconBg: "#E6DEDD",
-    date: "Sep 2022",
-    points: [
-      "Developing and maintaining web applications using express.js and other related technologies.",
-      "Implemented features with MVC archetecture",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-    ],
-  },
-  {
-    title: "React Native Devoloper",
-    company_name: "Emojizer",
+    company_name: "Article summarizer",
     icon: creator,
     iconBg: "#383E56",
     date: "Mar 2023",
     points: [
-      "Developing and maintaining web applications using React Native and other related technologies.",
-      // "Couldn't upload on Playstore because of Financial issues "
+      "Developed an AI-powered summarizer using advanced NLP techniques to extract key information and create concise summaries, enhancing readability and saving time. The system efficiently handles diverse content, providing accurate and coherent summaries across various topics and domains.",
     ],
   },
   {

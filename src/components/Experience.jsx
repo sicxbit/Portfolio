@@ -11,6 +11,7 @@ import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { textVariant } from "../utils/motion";
 
+
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
     contentStyle={{ background: "#1d1836", color: "#fff" }}
@@ -65,7 +66,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>what i have done so far</p>
-        <h2 className={styles.sectionHeadText}>Project Experience</h2>
+        <h2 className={styles.sectionHeadText}>Stepping Stones</h2>
       </motion.div>
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
